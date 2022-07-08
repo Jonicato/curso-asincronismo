@@ -28,4 +28,4 @@ const data = {
 //Enviamos la data a la api correspondiente
 postData(`${API}/products`, data)
     .then(response => response.json()) //Devuelve el JSON con la inserción realizada y el id
-    .then(data => console.log(data)) //Imprimimos la data
+    .then(data => console.log(data)); //Imprimimos la data

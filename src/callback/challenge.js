@@ -11,7 +11,7 @@ function fetchData(urlApi, callback) {
                 callback(null, JSON.parse(xhttp.responseText)); //Parseamos el texto que nos devuelve la petición a formato JSON
             } else {
                 const error = new Error('Error' + urlApi); //Se manda el error con la url de la api donde se produjo el error
-                return callback(error, null) //Regresamos un null debido a que no devuelve datos
+                return callback(error, null); //Regresamos un null debido a que no devuelve datos
             }
         }
     }

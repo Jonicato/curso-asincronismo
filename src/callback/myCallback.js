@@ -1,5 +1,5 @@
 function greeting(name) {
-    console.log(`Hola ${name}`)
+    console.log(`Hola ${name}`);
 }
 
 function sum(num1, num2) {

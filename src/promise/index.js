@@ -8,12 +8,12 @@ const countCows = new Promise(function (resolve, reject) {
     if (cows > 10) {
         resolve(`Nice! We have ${cows} cows on the farm`);
     } else {
-        reject('There is no enough cows on the farm :(')
+        reject('There is no enough cows on the farm :(');
     }
 });
 
 promise.then((result) => {
-    console.log(result)
+    console.log(result);
 }),
 countCows.then((result) => {
     console.log(result);
